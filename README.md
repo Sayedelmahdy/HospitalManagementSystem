@@ -68,13 +68,38 @@ The Hospital Management System allows patients, doctors, and administrators to a
 
 To get started with the Hospital Management System, follow these steps:
 
-1.Clone the repository: git clone https://github.com/your-username/your-repository-name.git
+1.Clone the repository: git clone https://github.com/Sayedelmahdy/HospitalManagementSystem
 
 2.Install the required dependencies.
 
 3.Set up the database and configure the connection string.
 
 4.Build and run the application.
+
+## Database
+
+The Hospital Management System utilizes a SQL Server database to store and manage the data. The database backup file, `Hospital.bak`, is included in the project repository.
+
+To restore the database from the backup file, follow these steps:
+
+1. Make sure you have SQL Server installed on your machine.
+
+2. Open SQL Server Management Studio (SSMS) and connect to your SQL Server instance.
+
+3. Right-click on "Databases" in the Object Explorer and select "Restore Database".
+
+4. In the "Source" section, choose "Device" and click the ellipsis button (`...`) to browse for the backup file.
+
+5. Locate and select the `Hospital.bak` file from your local repository.
+
+6. Verify the "Destination" database name and file locations.
+
+7. Click "OK" to start the database restoration process.
+
+8. Once the restoration is complete, the Hospital Management System should be able to connect to the database.
+
+Please note that the exact steps may vary depending on your SQL Server version and configuration.
+
 
 ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
