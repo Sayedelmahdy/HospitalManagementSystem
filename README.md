@@ -68,10 +68,12 @@ The Hospital Management System allows patients, doctors, and administrators to a
 
 To get started with the Hospital Management System, follow these steps:
 
-1. Clone the repository:
-git clone https://github.com/your-username/your-repository-name.git
+1.Clone the repository: git clone https://github.com/your-username/your-repository-name.git
+
 2.Install the required dependencies.
+
 3.Set up the database and configure the connection string.
+
 4.Build and run the application.
 
 ## Contributing
