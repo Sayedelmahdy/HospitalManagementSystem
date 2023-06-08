@@ -14,55 +14,6 @@ For hospital staff, the system provides an easy-to-use interface for managing pa
 
 Overall, the Hospital Management System is a comprehensive and powerful tool that helps hospitals to operate efficiently, deliver better patient care, and improve the overall experience of patients and medical staff.
 
-## Use Cases
-
-The Hospital Management System allows patients, doctors, and administrators to access and manage patient and doctor information. The system provides various functionalities that allow patients to register, update their details, schedule appointments, and pay consultation fees online. Doctors can view patient records, add treatment descriptions, and manage appointment details. Administrators can add new doctors, update their details, verify payments, and generate bills/receipts.
-
-### Patient Use Cases
-
-#### Registration
-
-- A new patient can register themselves and provide their details such as name, age, gender, blood group, etc. The system prompts the user to fill in the necessary fields.
-
-#### Updating
-
-- The patient can update their details which will be reflected in the HMS database. The patient can only update their details before treatment starts.
-
-#### Appointment
-
-- The system displays a list of available doctors, timings, dates, and enables patients to select a suitable appointment. The patient can also cancel an appointment.
-
-#### Payment
-
-- The system allows patients to pay the consultant fee of the doctor online or by cash.
-
-### Doctor Use Cases
-
-#### View Patient Records
-
-- The doctor can view patient records and treatment history.
-
-#### Add Treatment Description
-
-- The doctor can add descriptions of the treatment given to patients.
-
-#### Appointment Details
-
-- The doctor can view appointment requests with the schedule and confirm/cancel the appointment.
-
-### Administrator Use Cases
-
-#### Add Doctor
-
-- The administrator can add a new doctor to the system and fill in their details.
-
-#### Update Doctor Details
-
-- The administrator can view and update doctor details in the system.
-
-#### Verify Payment
-
-- The administrator can verify payments submitted by patients and generate bills/receipts.
 
 ## Getting Started
 
